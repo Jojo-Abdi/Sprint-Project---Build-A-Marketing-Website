@@ -83,6 +83,30 @@ p {
   line-height: 1.4;
 }
 
+.nav{
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  flex-wrap: wrap;
+  
+}
+
+.nav li {
+  font-size: 1.6rem;
+}
+
+
+
+}
+.intro {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  border-style: solid;
+  border-color: black;
+
+}
+
 .container {
   max-width: 100%;
   width: 100%;
@@ -135,4 +159,26 @@ p {
 .visit-africa .visit-form {
     width: 46%;
       margin-left: 4%;
+}
+
+@media only screen and (min-width: 500px) {
+.intro {
+
+  display: block;
+  width: 100%;
+  padding-bottom: 30px;
+
+}
+
+.intro {
+  display: block;
+  width: 100%;
+  padding-bottom: 30px;
+}
+
+.container {
+  width: 500px;
+  margin: auto;
+}
+
 }
